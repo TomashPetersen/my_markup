@@ -534,7 +534,18 @@ ul {
 
   .info-tabs__items {
     text-align: center;
-}
+  }
+
+  .info-tabs__item {
+    margin-right: 0;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .info__list {
+    display: block;
+  }
 
   .slick-right {
     left: calc(50% + 30px);
@@ -558,6 +569,12 @@ ul {
 
   .service__box {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 340px) {
+  .info-slider {
+    width: 280px;
   }
 }
 

@@ -452,6 +452,10 @@ ul {
   .clients-slider__box-img {
     margin-left: 2px;
   }
+
+  .footer {
+        padding: 70px 10px 50px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -537,8 +541,6 @@ ul {
         padding: 70px 10px 50px;
   }
 
-  
-
   .footer__bottom {
     flex-wrap: wrap;
     justify-content: center;
@@ -548,6 +550,16 @@ ul {
     width: 100%;
     margin: 20px 0;
     text-align: center;
+  }
+
+  .footer__top {
+    flex-wrap: wrap;
+  }
+
+  .footer__form {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
   }
 }
 
